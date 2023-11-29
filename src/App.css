@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rce-citem-body--bottom-title {
+  color: #ceccf5 !important;
+}
+
+.rce-citem {
+  background: #ffffff03 !important;
+}
+
+.rce-citem-body--top {
+  align-items: flex-end;
+}
+
+.rce-citem-body--bottom-title {
+  white-space: normal !important;
+  margin-bottom: 20px;
+}
+
+.rce-citem {
+  height: auto !important;
+}
+
+.rce-container-clist {
+  overflow: unset !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #5a5a5a0e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8888885d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555555a2;
+}
